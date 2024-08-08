@@ -1,10 +1,9 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
 const MyComponent = () => {
     return (
         <div>
-            <Helmet>
+            {/* <Helmet>
                 <meta
                     property="og:title"
                     content="Your Title"
@@ -15,13 +14,13 @@ const MyComponent = () => {
                 />
                 <meta
                     property="og:image"
-                    content="https://i.ytimg.com/vi/RW5HCOMbvuQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLADA27-lVq_QTA_JcXLl-uZZINsmg"
+                    content="https://yourwebsite.com/path/to/your-image.jpg"
                 />
                 <meta
                     property="og:url"
-                    content="https://i.ytimg.com/vi/RW5HCOMbvuQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLADA27-lVq_QTA_JcXLl-uZZINsmg"
+                    content="https://yourwebsite.com/your-page"
                 />
-            </Helmet>
+            </Helmet> */}
             <h1>Your Page Content</h1>
         </div>
     );
